@@ -15,6 +15,10 @@ button{
     cursor: pointer;
 }
 
+.primary:hover{
+    background-color: #0b5ed7;
+}
+
 .secondary{
     background-color: #6c757d;
     border: none;
@@ -24,6 +28,10 @@ button{
     width: 99px;
     text-transform: capitalize;
     cursor: pointer;
+}
+
+.secondary:hover{
+    background-color: #5c636a;
 }
 
 .success{
@@ -37,6 +45,10 @@ button{
     cursor: pointer;
 }
 
+.success:hover{
+    background-color: #157347;
+}
+
 .danger{
     background-color: #dc3545;
     color: white;
@@ -46,6 +58,10 @@ button{
     width: 77px;
     text-transform: capitalize;
     cursor: pointer;
+}
+
+.danger:hover{
+    background-color: #b02a37;
 }
 
 .warning{
@@ -59,6 +75,10 @@ button{
     cursor: pointer;
 }
 
+.warning:hover{
+    background-color: #ffca2c;
+}
+
 .info{
     border: none;
     border-radius: 7px;
@@ -68,6 +88,10 @@ button{
     cursor: pointer;
     height: 37px;
     width: 53px;
+}
+
+.info:hover{
+    background-color: #31d2f2;
 }
 
 .light{
@@ -81,6 +105,10 @@ button{
     cursor: pointer;
 }
 
+.light:hover{
+    background-color: #d3d4d5;
+}
+
 .dark{
     background-color: #212529;
     color: white;
@@ -90,4 +118,8 @@ button{
     height: 37px;
     width: 58px;
     cursor: pointer;
+}
+
+.dark:hover{
+    background-color: #424649;
 }
