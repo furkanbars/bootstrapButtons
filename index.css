@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+button{
+    font-family: 'Poppins', sans-serif;
+}
+
+.primary{
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    height: 37px;
+    width: 79px;
+    border-radius: 7px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.secondary{
+    background-color: #6c757d;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    height: 37px;
+    width: 99px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.success{
+    background-color: #198754;
+    color: white;
+    border: none;
+    width: 79px;
+    height: 37px;
+    border-radius: 7px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.danger{
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    height: 37px;
+    width: 77px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.warning{
+    border: none;
+    background-color: #ffc107;
+    color: #000;
+    height: 37px;
+    width: 85px;
+    text-transform: capitalize;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.info{
+    border: none;
+    border-radius: 7px;
+    background-color: #0dcaf0;
+    color: #000;
+    text-transform: capitalize;
+    cursor: pointer;
+    height: 37px;
+    width: 53px;
+}
+
+.light{
+    background-color: #f8f9fa;
+    color: #000;
+    border: none;
+    border-radius: 7px;
+    height: 37px;
+    width: 60px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.dark{
+    background-color: #212529;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    text-transform: capitalize;
+    height: 37px;
+    width: 58px;
+    cursor: pointer;
+}
